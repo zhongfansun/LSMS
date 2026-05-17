@@ -106,11 +106,7 @@ The MCAN model weights can be downloaded directly.
 
 To make reproduction easier, we also provide the processed data and related files through Baidu Netdisk.
 
-Shared file:
 
-```text
-bypy
-```
 
 Baidu Netdisk link:
 
@@ -136,14 +132,6 @@ Before training, please run the following script to generate the required traini
 python okvqa_anstraining.py
 ```
 
-Please make sure that the following files are correctly prepared before running this script:
-
-- OK-VQA annotation files
-- COCO 2014 images
-- MCAN input features
-- MCAN model weights
-- Other intermediate files required by the released pipeline
-
 ---
 
 ## Training and Evaluation
@@ -155,15 +143,6 @@ bash run_all.sh
 ```
 
 This script runs the main training and testing pipeline.
-
-Before running the script, please check and modify the paths in `run_all.sh` according to your local environment, including:
-
-- Dataset path
-- COCO image path
-- MCAN feature path
-- Model weight path
-- Output path
-- GPU settings
 
 ---
 
@@ -272,11 +251,12 @@ We also thank the authors of Prophet for providing useful resources for MCAN-bas
 If you find this repository useful for your research, please consider citing our paper:
 
 ```bibtex
-@article{lsms_vqa,
+@inproceedings{sun2025large,
   title={Large-Small Model Synergy with Multimodal Fine-Grained Heuristics for Knowledge-Based Visual Question Answering},
-  author={},
-  journal={},
-  year={}
+  author={Sun, Zhongfan and Guo, Kan and Hu, Yongli and Tian, Daxin and Gao, Qingqing and Wang, Jiapu and Gao, Junbin and Sun, Yanfeng and Yin, Baocai},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={935--944},
+  year={2025}
 }
 ```
 
