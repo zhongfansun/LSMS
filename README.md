@@ -4,7 +4,6 @@ This repository provides the official implementation of:
 
 **Large-Small Model Synergy with Multimodal Fine-Grained Heuristics for Knowledge-Based Visual Question Answering**
 
-This project focuses on knowledge-based visual question answering and explores how to effectively enhance a small VQA model with multimodal fine-grained heuristic information from a large vision-language model. The proposed framework is designed for large-small model collaboration, where the large model provides reflective and fine-grained multimodal guidance, and the small model performs efficient task-specific reasoning.
 
 ---
 
