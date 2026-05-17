@@ -260,8 +260,6 @@ If you find this repository useful for your research, please consider citing our
 }
 ```
 
-The citation information will be updated after publication.
-
 ---
 
 ## Contact
