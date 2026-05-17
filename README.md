@@ -4,23 +4,6 @@ This repository provides the official implementation of:
 
 **Large-Small Model Synergy with Multimodal Fine-Grained Heuristics for Knowledge-Based Visual Question Answering**
 
-
----
-
-## News
-
-- The code and data files are being organized and uploaded progressively.
-- Processed data and intermediate files will be released through Baidu Netdisk.
-- More detailed instructions will be updated soon.
-
----
-
-## Overview
-
-Knowledge-based visual question answering requires models to jointly understand visual content, question semantics, and external commonsense or factual knowledge. Existing large vision-language models show strong general reasoning ability, while small task-specific VQA models often have better efficiency and task-adapted prediction behavior.
-
-This repository implements a large-small model synergy framework that aims to combine the strengths of both types of models. Specifically, multimodal fine-grained heuristic information is extracted and used to guide the VQA reasoning process.
-
 ---
 
 ## Repository Structure
