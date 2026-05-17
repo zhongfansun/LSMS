@@ -26,7 +26,7 @@ LSMS/
 └── ...
 ```
 
-Please note that the exact structure may be slightly different depending on the released version.
+
 
 ---
 
