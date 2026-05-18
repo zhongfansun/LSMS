@@ -1,0 +1,19 @@
+{
+    "TASK": "ok",
+    "RUN_MODE": "finetune",
+    "cfg_file": "configs/finetune.yml",
+    "VERSION": "okvqa_finetune_1",
+    "CKPT_PATH": null,
+    "PRETRAINED_MODEL_PATH": "ckpts/mcan_ft_okvqa.pkl",
+    "DEBUG": false,
+    "RESUME": false,
+    "GPU": "0",
+    "GRAD_ACCU_STEPS": 2,
+    "SEED": 99,
+    "CANDIDATE_NUM": null,
+    "EXAMPLE_NUM": null,
+    "EXAMPLES_PATH": null,
+    "CANDIDATES_PATH": null,
+    "CAPTIONS_PATH": null,
+    "OPENAI_KEY": null
+}
