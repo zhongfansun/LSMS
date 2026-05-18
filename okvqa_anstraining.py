@@ -2,7 +2,6 @@ import json
 import os
 import pandas as pd
 
-#生成lmm的答案的输入数据
 output_split = 'train'
 
 problems = json.load(open('data_files/okvqa_problems.json'))
