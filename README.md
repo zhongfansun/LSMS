@@ -15,6 +15,11 @@ LSMS/
 ├── data_files/
 │   ├── train2014/
 │   ├── val2014/
+│   ├── mcan_okvqa_configs.json
+│   ├── okvqa_problems.json
+│   ├── mcan_ft_okvqa.pkl
+│   ├── okvqa_train_data.pt
+│   ├── okvqa_val_data.pt
 │   └── ...
 ├── modeling_llava/
 │   └── modeling_llava.py
