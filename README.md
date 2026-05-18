@@ -125,7 +125,6 @@ Extraction code:
 wfcg
 ```
 
-Please note that the data files are being uploaded progressively.
 
 ---
 
